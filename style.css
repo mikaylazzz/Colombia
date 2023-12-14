@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la barra de navegación (topbar) */
+#topbar {
+    background-color: #000000;
+    /* Color de fondo de la barra */
+    color: white;
+    /* Color del texto en la barra */
+    padding: 10px 0;
+    /* Espaciado interior vertical */
+    /*text-align: center; /* Alineación del contenido */
+}
+
+/* Estilo para los elementos de la barra de navegación */
+#topbar a {
+    color: rgb(255, 255, 255);
+    /* Color del texto de los enlaces */
+    text-decoration: none;
+    /* Elimina el subrayado predeterminado de los
+
+enlaces */
+
+    margin: 0 15px;
+    /* Espaciado horizontal entre elementos */
+    font-size: 20px;
+}
+
+/* Cambiar el color de los enlaces cuando se les pasa el mouse */
+#topbar a:hover {
+    color: rgb(94, 123, 255);
+    /* Cambia el color del texto cuando se pasa el mouse */
+}
